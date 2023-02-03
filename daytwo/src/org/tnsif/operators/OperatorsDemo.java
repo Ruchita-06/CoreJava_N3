@@ -11,7 +11,7 @@ public class OperatorsDemo {
 		int x=sc.nextInt();
 		int y=sc.nextInt();
 		
-		//Arithmetic operator
+		//Arithmetic Operator
 		System.out.println(x+y);
 		System.out.println(x-y);
 		System.out.println(x*y);
@@ -22,11 +22,11 @@ public class OperatorsDemo {
 		boolean res=x>y;
 		System.out.println(res);
 		
-		//Assingment
+		//Assignment
 		x*=y;
 		System.out.println(x);
 		
-		//Logical
+		//Logic 
 		boolean res2=(5==5)&&(5>3);//true
 		boolean res3=(5==3)||(5>2);//true
 		boolean res4=!(5!=4);//true
@@ -51,5 +51,4 @@ public class OperatorsDemo {
 		int q= --x;//5
 		System.out.println(q);
 	}
-
 }
